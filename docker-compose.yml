@@ -1,0 +1,16 @@
+version: '2'
+networks:
+  default:
+    external:
+      name: tf-network
+
+
+services:
+  tf:
+    build: tensorflow
+    container_name: sockyjam.tensorflow
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./notebooks:/tf/notebooks
+    
