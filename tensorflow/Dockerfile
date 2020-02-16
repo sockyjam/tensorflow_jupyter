@@ -7,7 +7,7 @@ pip3 install opencv-python
 RUN apt-get update;\
     apt-get install  -y python-qt4
 
-RUN pip3 install pillow sklearn pandas
+RUN pip3 install Cython contextlib2 lxml matplotlib pillow sklearn pandas pycocotools 
 
 
 
