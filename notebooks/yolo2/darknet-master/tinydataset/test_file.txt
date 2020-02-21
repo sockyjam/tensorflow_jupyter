@@ -1,0 +1,6 @@
+./tinydataset/test/s_130.png
+./tinydataset/test/s_131.png
+./tinydataset/test/s_132.png
+./tinydataset/test/s_133.png
+./tinydataset/test/s_134.png
+./tinydataset/test/s_135.png

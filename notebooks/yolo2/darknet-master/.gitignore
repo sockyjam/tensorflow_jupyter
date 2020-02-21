@@ -27,4 +27,5 @@ Thumbs.db
 *.swp
 dataset/
 *.weights
+*.conv*
 
