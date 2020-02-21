@@ -1,6 +1,6 @@
-../image/train/s_130.png
-../image/train/s_131.png
-../image/train/s_132.png
-../image/train/s_133.png
-../image/train/s_134.png
-../image/train/s_135.png
+./tinydataset/test/s_130.png
+./tinydataset/test/s_131.png
+./tinydataset/test/s_132.png
+./tinydataset/test/s_133.png
+./tinydataset/test/s_134.png
+./tinydataset/test/s_135.png
