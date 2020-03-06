@@ -4,13 +4,13 @@ import pandas as pd
 import xml.etree.ElementTree as ET
 
 
-def xml_to_csv(path):
+def xml_to_csv(path, folder):
     xml_list = []
     for xml_file in glob.glob(path + '/*.xml'):
         tree = ET.parse(xml_file)
         root = tree.getroot()
 
-        value = ["./tinydataset/"+root.find('filename').text]
+        value = ["../images/"+folder+"/"+root.find('filename').text]
 
         # for member in root.findall('object'):
         #     if member[0].text == 'iphone':
@@ -33,9 +33,9 @@ def xml_to_csv(path):
 
 def main():
     for folder in ['train', 'test']:
-        image_path = os.path.join(os.getcwd(), ('image/' + folder))
-        xml_df = xml_to_csv(image_path)
-        xml_df.to_csv(('./image/'+folder+'_file.txt'), index=None)
+        image_path = os.path.join(os.getcwd(), ('images/' + folder))
+        xml_df = xml_to_csv(image_path, folder)
+        xml_df.to_csv(('./images/'+folder+'_file.txt'), index=None)
     print('Successfully converted xml to csv.')
 
 if __name__ == '__main__':

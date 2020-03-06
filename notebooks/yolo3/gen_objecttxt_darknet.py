@@ -13,12 +13,8 @@ def xml_to_txt(xml_file):
         tree = ET.parse(xml_file)
         root = tree.getroot()
         for member in root.findall('object'):
-            if member[0].text == 'iphone':
+            if member[0].text == 'hand':
                 class_id = 0
-            elif member[0].text == 'kindle':
-                class_id = 1
-            elif member[0].text == 'mouse':
-                class_id = 2
 
             width = int(root.find('size')[0].text)
             height = int(root.find('size')[1].text)
@@ -51,7 +47,7 @@ def xml_to_txt(xml_file):
 
 def main():
     for folder in ['train', 'test']:
-        flist = glob.glob("./image/"+folder+"/*.xml")
+        flist = glob.glob("./images/"+folder+"/*.xml")
         for xmlfile in flist:
             xml_df = xml_to_txt(xmlfile)
             # xml_df.to_csv("."+xmlfile.split(".")[-2]+".txt", index=None)

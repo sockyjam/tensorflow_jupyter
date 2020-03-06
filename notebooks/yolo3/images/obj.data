@@ -1,6 +1,6 @@
 classes = 3
-train  = ./tinydataset/train_file.txt
-valid  = ./tinydataset/test_file.txt
-names = ./tinydataset/obj.names
+train  = ../images/train_file.txt
+valid  = ../images/test_file.txt
+names = ../images/obj.names
 backup = ./backup/
 
