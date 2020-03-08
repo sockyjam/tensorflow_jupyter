@@ -1,4 +1,8 @@
 *.jpg
 *.png
-
+*tfrecords
+*.15
+*.weights
+*.backup
+*.74
 

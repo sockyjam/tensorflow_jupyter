@@ -1,4 +1,4 @@
-classes = 3
+classes = 1
 train  = ../images/train_file.txt
 valid  = ../images/test_file.txt
 names = ../images/obj.names
