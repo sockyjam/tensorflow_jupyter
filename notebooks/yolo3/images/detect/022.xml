@@ -1,0 +1,26 @@
+<annotation>
+	<folder>detect</folder>
+	<filename>022.jpg</filename>
+	<path>/Users/sockyjam/work/src/github_tensorflow_jupyter/tensorflow_jupyter/notebooks/yolo3/images/detect/022.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>794</width>
+		<height>529</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>hand</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>601</xmin>
+			<ymin>129</ymin>
+			<xmax>673</xmax>
+			<ymax>274</ymax>
+		</bndbox>
+	</object>
+</annotation>
