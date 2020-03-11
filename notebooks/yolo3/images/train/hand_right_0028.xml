@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>train</folder>
 	<filename>hand_right_0028.jpg</filename>
 	<path>/Users/zhouzhongyi/Desktop/labelimg/train/hand_right_0028.jpg</path>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>93</xmin>
-			<ymin>252</ymin>
-			<xmax>371</xmax>
-			<ymax>599</ymax>
+			<xmin>130</xmin>
+			<ymin>274</ymin>
+			<xmax>318</xmax>
+			<ymax>564</ymax>
 		</bndbox>
 	</object>
 </annotation>

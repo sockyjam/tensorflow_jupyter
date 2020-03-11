@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train</folder>
+	<filename>hand_left_0001.jpg</filename>
+	<path>/Users/zhouzhongyi/Desktop/labelimg/train/hand_left_0001.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1440</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>hand</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>679</xmin>
+			<ymin>580</ymin>
+			<xmax>819</xmax>
+			<ymax>760</ymax>
+		</bndbox>
+	</object>
+</annotation>
